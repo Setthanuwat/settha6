@@ -10,7 +10,6 @@ int main(){
 	int C =0;
 	int D =0;
 	int F =0;
-	int Z =0;
 	cout << "Please input grade of each student (A-F) or input 0 to exit."<<endl;
 	do{
 		cout << "Student ["<< i << "]: " ;
