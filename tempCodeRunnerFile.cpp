@@ -13,7 +13,7 @@ int main (){
 	while (getline(source, text))
 	{
 		dest << text << "\n";
-		
+		cout << text << "\n";
 	}
 	dest << "-------------------- HA!! ---------------------";
 	//กรอก Code เฉพาะส่วนนี้ ให้สอดคล้องกับโจทย์และ Code ส่วนอื่น ๆ 
