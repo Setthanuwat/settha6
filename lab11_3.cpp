@@ -10,7 +10,7 @@ int main()
 double count = 0;
 double sum =0;
 double D = 0;
-double A,B,C,Z;
+double A,B,C,E;
 string text;
 ifstream source("score.txt");
 while (getline(source,text))
@@ -20,9 +20,9 @@ while (getline(source,text))
     count++;
 }
 A = sum/count;   
-Z=sqrt((D/count)-(A*A));
+E=sqrt((D/count)-(A*A));
 B =roundf( A* 1000) / 1000;
-C =roundf( Z* 1000) / 1000;
+C =roundf( E* 1000) / 1000;
 
 cout << "Number of data = " << count<<endl;
 cout << "Mean = "<< B <<endl;
